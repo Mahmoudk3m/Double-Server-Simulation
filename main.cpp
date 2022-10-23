@@ -17,16 +17,16 @@ double eps =1e-9;
 #define printBaker cout<<"CustomerNumber: "<<it+1<<"|"<<"IAT-RN: "<<iatRN[it]<<"|"<<"Clock: "<<clk[it]<<"|"<<"ST-RN: "<<serviceTimeRN[it]<<"|"<<"Able-ST-Begin: "<<"-"<<"|"<<"Able-ST: "<<"-"<<"|"<<"Able-ST-End: "<<"-"<<"|"<<"Baker-ST-Begin: "<<bk.begin<<"|"<<"Baker-ST: "<<bk.serviceTime<<"|"<<"Baker-ST-End: "<<bk.end<<"|"<<"QueueingTime: "<<sys.queueingTime<<"|"<<"TimeSpent: "<<sys.timeSpent<<"|"<<"AbleIdle: "<<"-"<<"|"<<"BakerIdle: "<<bk.idle<<"|"
 
 ///
-//int serviceTimeRN[100],iatRN[100];
-//void generateRN(){
-//    loop(0,100){
-//        serviceTimeRN[i]=(rand()%100);
-//        iatRN[i]=(rand()%100);
-//    }
-//}
+int serviceTimeRN[100],iatRN[100];
+void generateRN(){
+    loop(0,100){
+        serviceTimeRN[i]=(rand()%100);
+        iatRN[i]=(rand()%100);
+    }
+}
 ///Section Test Case
-int iatRN[]={0,26,98,90,26,42,74,80,68,22,48,34,45,24,34,63,38,80,42,56,89,18,51,71,16,92};
-int serviceTimeRN[]={95,21,51,92,89,38,13,61,50,49,39,53,88,01,81,53,81,64,01,67,01,47,75,57,87,47};
+//int iatRN[]={0,26,98,90,26,42,74,80,68,22,48,34,45,24,34,63,38,80,42,56,89,18,51,71,16,92};
+//int serviceTimeRN[]={95,21,51,92,89,38,13,61,50,49,39,53,88,01,81,53,81,64,01,67,01,47,75,57,87,47};
 ///
 vector<pair<int,int>>able,baker,iat;
 void assignRN(){
@@ -148,28 +148,11 @@ int main(){
     cin.tie(0);std::ios::sync_with_stdio(false);cout.tie(0);
 
     srand(time(NULL));
-//    generateRN();
+    generateRN();
     assignRN();
     iatToClock();
     mapRandomNumbers();
-    cout<<endl;
+    cout<<endl<<endl;
     solve();
-//    for(auto it:ableMap)cout<<it.first<<" "<<it.second<<endl;
-//    cout<<"Able"<<endl;
-//    for(int i=0;i<able.size();i++){
-//        cout<<able[i].first<<" "<<able[i].second<<endl;
-//    }
-//    cout<<"baker"<<endl;
-//    loop(0,baker.size()){
-//        cout<<baker[i].first<<" "<<baker[i].second<<endl;
-//    }
-//    cout<<"IAT"<<endl;
-//    loop(0,iat.size()){
-//        cout<<iat[i].first<<" "<<iat[i].second<<endl;
-//    }
-//    cout<<"CLOCK"<<endl;
-//    loop(0,clk.size()){
-//        cout<<clk[i]<<endl;
-//    }
     return 0;
 }
