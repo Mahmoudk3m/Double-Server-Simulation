@@ -2,103 +2,57 @@ Enter number of iat times
 Enter iat time in minute and its probabilty Enter number of able times
 Enter able time in minute and its probabilty Enter number of baker times
 Enter baker time in minute and its probabilty 
-0 50
-3 81
-5 49
-6 2
-8 25
-12 85
-15 77
-16 0
-18 27
-20 59
-24 99
-26 59
-27 3
-28 3
-32 99
-34 45
-38 99
-40 53
-41 15
-43 64
-44 13
-48 87
-49 24
-51 35
-52 12
-55 65
-57 25
-58 13
-62 91
-63 3
-65 48
-66 22
-68 60
-69 3
-71 59
-75 95
-77 33
-80 84
-81 1
-85 86
-87 32
-89 30
-93 93
-95 58
-97 44
-99 55
-101 35
-103 57
-105 47
-109 97
-111 33
-113 31
-114 2
-117 74
-119 55
-120 20
-121 2
-123 29
-126 82
-128 42
-130 41
-133 78
-134 1
-137 68
-141 92
-143 35
-144 10
-148 98
-150 58
-154 88
-157 76
-161 93
-163 46
-165 61
-167 58
-169 42
-171 32
-174 82
-176 43
-179 71
-182 82
-184 28
-185 22
-188 73
-192 93
-195 82
-198 81
-201 72
-205 93
-208 69
-210 52
-212 31
-215 82
-219 92
-220 7
-223 69
-225 31
-227 63
-231 97
-232 24
+CustomerNumber: 1|IAT-RN: 0|Clock: 0|ST-RN: 95|Able-ST-Begin: -|Able-ST: -|Able-ST-End: -|Baker-ST-Begin: 0|Baker-ST: 6|Baker-ST-End: 6|QueueingTime: 0|TimeSpent: 6|AbleIdle: -|BakerIdle: 0|
+
+CustomerNumber: 2|IAT-RN: 26|Clock: 2|ST-RN: 21|Able-ST-Begin: 2|Able-ST: 2|Able-ST-End: 4|Baker-ST-Begin: -|Baker-ST: -|Baker-ST-End: -|QueueingTime: 0|TimeSpent: 2|AbleIdle: 2|BakerIdle: -|
+
+CustomerNumber: 3|IAT-RN: 98|Clock: 6|ST-RN: 51|Able-ST-Begin: -|Able-ST: -|Able-ST-End: -|Baker-ST-Begin: 6|Baker-ST: 4|Baker-ST-End: 10|QueueingTime: 0|TimeSpent: 4|AbleIdle: -|BakerIdle: 0|
+
+CustomerNumber: 4|IAT-RN: 90|Clock: 10|ST-RN: 92|Able-ST-Begin: -|Able-ST: -|Able-ST-End: -|Baker-ST-Begin: 10|Baker-ST: 6|Baker-ST-End: 16|QueueingTime: 0|TimeSpent: 6|AbleIdle: -|BakerIdle: 0|
+
+CustomerNumber: 5|IAT-RN: 26|Clock: 12|ST-RN: 89|Able-ST-Begin: 12|Able-ST: 5|Able-ST-End: 17|Baker-ST-Begin: -|Baker-ST: -|Baker-ST-End: -|QueueingTime: 0|TimeSpent: 5|AbleIdle: 8|BakerIdle: -|
+
+CustomerNumber: 6|IAT-RN: 42|Clock: 14|ST-RN: 38|Able-ST-Begin: -|Able-ST: -|Able-ST-End: -|Baker-ST-Begin: 16|Baker-ST: 4|Baker-ST-End: 20|QueueingTime: 2|TimeSpent: 6|AbleIdle: -|BakerIdle: 0|
+
+CustomerNumber: 7|IAT-RN: 74|Clock: 17|ST-RN: 13|Able-ST-Begin: 17|Able-ST: 2|Able-ST-End: 19|Baker-ST-Begin: -|Baker-ST: -|Baker-ST-End: -|QueueingTime: 0|TimeSpent: 2|AbleIdle: 0|BakerIdle: -|
+
+CustomerNumber: 8|IAT-RN: 80|Clock: 20|ST-RN: 61|Able-ST-Begin: -|Able-ST: -|Able-ST-End: -|Baker-ST-Begin: 20|Baker-ST: 5|Baker-ST-End: 25|QueueingTime: 0|TimeSpent: 5|AbleIdle: -|BakerIdle: 0|
+
+CustomerNumber: 9|IAT-RN: 68|Clock: 23|ST-RN: 50|Able-ST-Begin: 23|Able-ST: 3|Able-ST-End: 26|Baker-ST-Begin: -|Baker-ST: -|Baker-ST-End: -|QueueingTime: 0|TimeSpent: 3|AbleIdle: 4|BakerIdle: -|
+
+CustomerNumber: 10|IAT-RN: 22|Clock: 24|ST-RN: 49|Able-ST-Begin: -|Able-ST: -|Able-ST-End: -|Baker-ST-Begin: 25|Baker-ST: 4|Baker-ST-End: 29|QueueingTime: 1|TimeSpent: 5|AbleIdle: -|BakerIdle: 0|
+
+CustomerNumber: 11|IAT-RN: 48|Clock: 26|ST-RN: 39|Able-ST-Begin: 26|Able-ST: 3|Able-ST-End: 29|Baker-ST-Begin: -|Baker-ST: -|Baker-ST-End: -|QueueingTime: 0|TimeSpent: 3|AbleIdle: 0|BakerIdle: -|
+
+CustomerNumber: 12|IAT-RN: 34|Clock: 28|ST-RN: 53|Able-ST-Begin: -|Able-ST: -|Able-ST-End: -|Baker-ST-Begin: 29|Baker-ST: 4|Baker-ST-End: 33|QueueingTime: 1|TimeSpent: 5|AbleIdle: -|BakerIdle: 0|
+
+CustomerNumber: 13|IAT-RN: 45|Clock: 30|ST-RN: 88|Able-ST-Begin: 30|Able-ST: 5|Able-ST-End: 35|Baker-ST-Begin: -|Baker-ST: -|Baker-ST-End: -|QueueingTime: 0|TimeSpent: 5|AbleIdle: 1|BakerIdle: -|
+
+CustomerNumber: 14|IAT-RN: 24|Clock: 31|ST-RN: 1|Able-ST-Begin: -|Able-ST: -|Able-ST-End: -|Baker-ST-Begin: 33|Baker-ST: 3|Baker-ST-End: 36|QueueingTime: 2|TimeSpent: 5|AbleIdle: -|BakerIdle: 0|
+
+CustomerNumber: 15|IAT-RN: 34|Clock: 33|ST-RN: 81|Able-ST-Begin: 35|Able-ST: 4|Able-ST-End: 39|Baker-ST-Begin: -|Baker-ST: -|Baker-ST-End: -|QueueingTime: 2|TimeSpent: 6|AbleIdle: 0|BakerIdle: -|
+
+CustomerNumber: 16|IAT-RN: 63|Clock: 35|ST-RN: 53|Able-ST-Begin: -|Able-ST: -|Able-ST-End: -|Baker-ST-Begin: 36|Baker-ST: 4|Baker-ST-End: 40|QueueingTime: 1|TimeSpent: 5|AbleIdle: -|BakerIdle: 0|
+
+CustomerNumber: 17|IAT-RN: 38|Clock: 37|ST-RN: 81|Able-ST-Begin: 39|Able-ST: 4|Able-ST-End: 43|Baker-ST-Begin: -|Baker-ST: -|Baker-ST-End: -|QueueingTime: 2|TimeSpent: 6|AbleIdle: 0|BakerIdle: -|
+
+CustomerNumber: 18|IAT-RN: 80|Clock: 40|ST-RN: 64|Able-ST-Begin: -|Able-ST: -|Able-ST-End: -|Baker-ST-Begin: 40|Baker-ST: 5|Baker-ST-End: 45|QueueingTime: 0|TimeSpent: 5|AbleIdle: -|BakerIdle: 0|
+
+CustomerNumber: 19|IAT-RN: 42|Clock: 42|ST-RN: 1|Able-ST-Begin: 43|Able-ST: 2|Able-ST-End: 45|Baker-ST-Begin: -|Baker-ST: -|Baker-ST-End: -|QueueingTime: 1|TimeSpent: 3|AbleIdle: 0|BakerIdle: -|
+
+CustomerNumber: 20|IAT-RN: 56|Clock: 44|ST-RN: 67|Able-ST-Begin: -|Able-ST: -|Able-ST-End: -|Baker-ST-Begin: 45|Baker-ST: 5|Baker-ST-End: 50|QueueingTime: 1|TimeSpent: 6|AbleIdle: -|BakerIdle: 0|
+
+CustomerNumber: 21|IAT-RN: 89|Clock: 48|ST-RN: 1|Able-ST-Begin: 48|Able-ST: 2|Able-ST-End: 50|Baker-ST-Begin: -|Baker-ST: -|Baker-ST-End: -|QueueingTime: 0|TimeSpent: 2|AbleIdle: 3|BakerIdle: -|
+
+CustomerNumber: 22|IAT-RN: 18|Clock: 49|ST-RN: 47|Able-ST-Begin: -|Able-ST: -|Able-ST-End: -|Baker-ST-Begin: 50|Baker-ST: 4|Baker-ST-End: 54|QueueingTime: 1|TimeSpent: 5|AbleIdle: -|BakerIdle: 0|
+
+CustomerNumber: 23|IAT-RN: 51|Clock: 51|ST-RN: 75|Able-ST-Begin: 51|Able-ST: 4|Able-ST-End: 55|Baker-ST-Begin: -|Baker-ST: -|Baker-ST-End: -|QueueingTime: 0|TimeSpent: 4|AbleIdle: 1|BakerIdle: -|
+
+CustomerNumber: 24|IAT-RN: 71|Clock: 54|ST-RN: 57|Able-ST-Begin: -|Able-ST: -|Able-ST-End: -|Baker-ST-Begin: 54|Baker-ST: 5|Baker-ST-End: 59|QueueingTime: 0|TimeSpent: 5|AbleIdle: -|BakerIdle: 0|
+
+CustomerNumber: 25|IAT-RN: 16|Clock: 55|ST-RN: 87|Able-ST-Begin: 55|Able-ST: 5|Able-ST-End: 60|Baker-ST-Begin: -|Baker-ST: -|Baker-ST-End: -|QueueingTime: 0|TimeSpent: 5|AbleIdle: 0|BakerIdle: -|
+
+CustomerNumber: 26|IAT-RN: 92|Clock: 0|ST-RN: 47|Able-ST-Begin: -|Able-ST: -|Able-ST-End: -|Baker-ST-Begin: 59|Baker-ST: 4|Baker-ST-End: 63|QueueingTime: 59|TimeSpent: 63|AbleIdle: -|BakerIdle: 0|
+
+CustomerNumber: 27|IAT-RN: 0|Clock: -1537169352|ST-RN: 0|Able-ST-Begin: 60|Able-ST: 2|Able-ST-End: 62|Baker-ST-Begin: -|Baker-ST: -|Baker-ST-End: -|QueueingTime: 1537169412|TimeSpent: 1537169414|AbleIdle: 0|BakerIdle: -|
+
